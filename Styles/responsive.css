@@ -1,0 +1,51 @@
+@media screen and (max-width: 768px) {
+
+    /* principal */
+
+    body {
+        margin: 0 auto;
+    }
+
+    .container {
+        display: block;
+        background-image: none;
+    }
+
+    .container-box {
+        margin: 2em 2em;
+    }
+
+    .container-imagem {
+        width: 50vw;
+    }
+
+    .container-titulo {
+        margin-top: 2em;
+    }
+
+    /* segundario */
+
+    .segundario {
+        margin: 0;
+    }
+
+    .container-segundario-descricao {
+        text-align: center;
+    }
+
+    .segundario-imagem {
+        width: 50vw;
+    }
+
+    /* dispositivos */
+
+    .dispositivos-lista {
+        flex-wrap: wrap;
+    }
+
+    /* rodape */
+
+    .rodape-lista {
+        flex-wrap: wrap ;
+    }
+}
